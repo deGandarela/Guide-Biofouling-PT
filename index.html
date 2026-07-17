@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Identificação - Espécies Invasoras Marinhas PT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Biofouling ID Guide: Portugal</h1>
+            <p>Guia de identificação de espécies marinhas invasoras e transportadas por águas de lastro.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="sidebar">
+            <h2>Filtros</h2>
+            <div class="filter-group">
+                <button class="filter-btn active" data-filter="all">Todas as Espécies</button>
+                <button class="filter-btn" data-filter="algas">Algas</button>
+                <button class="filter-btn" data-filter="moluscos">Moluscos</button>
+                <button class="filter-btn" data-filter="crustaceos">Crustáceos</button>
+                <button class="filter-btn" data-filter="outros">Outros Invertebrados</button>
+            </div>
+        </aside>
+
+        <section class="content">
+            <div id="species-grid" class="grid">
+                <!-- Os cartões (cards) serão gerados dinamicamente pelo JavaScript aqui -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
