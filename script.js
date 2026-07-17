@@ -1,10 +1,10 @@
 /**
- * Guia de Identificação de Bioincrustação - JavaScript
- * Versão Limpa (Sem Menu de Regiões)
+ * Biofouling Identification Guide - JavaScript
+ * Clean Version
  */
 
 // =============================================
-// Filtro de Pesquisa de Espécies
+// Species Search Filter
 // =============================================
 
 function filterSpecies(type) {
@@ -31,7 +31,7 @@ function filterSpecies(type) {
 }
 
 // =============================================
-// Scroll Suave para a Navegação
+// Smooth Scrolling for Navigation
 // =============================================
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -50,7 +50,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // =============================================
-// Tratamento de Erros de Imagens (Placeholders)
+// Image Error Handling (Placeholders)
 // =============================================
 
 document.querySelectorAll('.species-image img').forEach(img => {
@@ -65,8 +65,8 @@ document.querySelectorAll('.species-image img').forEach(img => {
     placeholder.style.backgroundColor = '#f0f0f0';
     placeholder.style.color = '#888';
     
-    const speciesName = img.alt || 'Espécie';
-    placeholder.innerHTML = '<div style="font-size:24px; margin-bottom:5px;">🔍</div><div style="font-size:12px; font-weight:bold; text-align:center;">' + speciesName + '</div><div style="font-size:10px; margin-top:5px;">Imagem indisponível</div>';
+    const speciesName = img.alt || 'Species';
+    placeholder.innerHTML = '<div style="font-size:24px; margin-bottom:5px;">🔍</div><div style="font-size:12px; font-weight:bold; text-align:center;">' + speciesName + '</div><div style="font-size:10px; margin-top:5px;">Image not available</div>';
     
     img.addEventListener('error', function() {
         this.style.display = 'none';
@@ -80,7 +80,7 @@ document.querySelectorAll('.species-image img').forEach(img => {
 });
 
 // =============================================
-// Modal da Galeria de Espécies
+// Species Gallery Modal
 // =============================================
 
 const galleryOverlay = document.getElementById('gallery-overlay');
@@ -128,7 +128,7 @@ document.querySelectorAll('.species-card, .species-item').forEach(card => {
         const images = imagesData ? imagesData.split(',').map(s => s.trim()) : [];
         
         const featuresList = this.querySelector('.species-features ul');
-        const featuresHTML = featuresList ? '<h4>Como Identificar</h4>' + featuresList.outerHTML : '';
+        const featuresHTML = featuresList ? '<h4>How to Spot It</h4>' + featuresList.outerHTML : '';
         
         const lookalikeBox = this.querySelector('.lookalike-box');
         const lookalikeHTML = lookalikeBox ? lookalikeBox.innerHTML : '';
@@ -136,11 +136,11 @@ document.querySelectorAll('.species-card, .species-item').forEach(card => {
         if(galleryHeader) {
             galleryHeader.className = 'gallery-header';
             if (this.classList.contains('noxious') || this.classList.contains('invasive')) {
-                galleryHeader.style.backgroundColor = '#CC0000'; // Vermelho
+                galleryHeader.style.backgroundColor = '#CC0000'; // Red
             } else if (this.classList.contains('native')) {
-                galleryHeader.style.backgroundColor = '#006400'; // Verde escuro
+                galleryHeader.style.backgroundColor = '#006400'; // Dark green
             } else {
-                galleryHeader.style.backgroundColor = '#FF8C00'; // Laranja
+                galleryHeader.style.backgroundColor = '#FF8C00'; // Orange
             }
         }
         
@@ -158,7 +158,7 @@ document.querySelectorAll('.species-card, .species-item').forEach(card => {
             images.forEach((imageSrc, index) => {
                 const thumb = document.createElement('img');
                 thumb.src = imageSrc;
-                thumb.alt = imgAlt + ' - Foto ' + (index + 1);
+                thumb.alt = imgAlt + ' - Photo ' + (index + 1);
                 thumb.className = 'gallery-thumb' + (index === 0 ? ' active' : '');
                 thumb.dataset.index = index;
                 thumb.addEventListener('click', function() {
