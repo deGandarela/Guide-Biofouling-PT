@@ -8,35 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body data-region="cont">
-    
-    <!-- Region Selection Modal (First Visit) -->
-    <div class="region-modal" id="region-modal">
-        <div class="region-modal-backdrop"></div>
-        <div class="region-modal-content">
-            <div class="region-modal-header">
-                <h2>Guia de Identificação de Bioincrustação</h2>
-                <p>Selecione a sua região para ver as espécies e contactos relevantes</p>
-            </div>
-            <div class="region-modal-options">
-                <button class="region-modal-btn" onclick="selectRegionFromModal('cont')">
-                    <span class="region-modal-icon">🌊</span>
-                    <span class="region-modal-name">Portugal Continental</span>
-                    <span class="region-modal-desc">Regulamentos e contactos ICNF</span>
-                </button>
-                <button class="region-modal-btn" onclick="selectRegionFromModal('mad')">
-                    <span class="region-modal-icon">🏝️</span>
-                    <span class="region-modal-name">Madeira</span>
-                    <span class="region-modal-desc">Lista específica da Região Autónoma</span>
-                </button>
-                <button class="region-modal-btn" onclick="selectRegionFromModal('aco')">
-                    <span class="region-modal-icon">🌋</span>
-                    <span class="region-modal-name">Açores</span>
-                    <span class="region-modal-desc">Direção Regional dos Assuntos do Mar</span>
-                </button>
-            </div>
-        </div>
-    </div>
+<body>
     
     <header>
         <div class="container">
@@ -45,55 +17,23 @@
                 <ul>
                     <li><a href="#intro">Introdução</a></li>
                     <li><a href="#invasive">Invasoras (Casco)</a></li>
-                    <li><a href="#niche">Invasoras (Ninchos)</a></li>
+                    <li><a href="#niche">Invasoras (Nichos)</a></li>
                     <li><a href="#native">Espécies Nativas</a></li>
                     <li><a href="#contact">Reportar</a></li>
                 </ul>
             </nav>
-            <!-- Region Dropdown -->
-            <div class="region-dropdown" id="region-dropdown">
-                <button class="region-dropdown-trigger" onclick="toggleRegionDropdown()">
-                    <span class="region-dropdown-icon" id="region-dropdown-icon">🌊</span>
-                    <span class="region-dropdown-text" id="region-dropdown-text">PT Cont.</span>
-                    <svg class="region-dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
-                </button>
-                <div class="region-dropdown-menu" id="region-dropdown-menu">
-                    <button class="region-dropdown-item" data-region="cont" onclick="setRegion('cont')">
-                        <span>🌊</span> Portugal Continental
-                    </button>
-                    <button class="region-dropdown-item" data-region="mad" onclick="setRegion('mad')">
-                        <span>🏝️</span> Madeira
-                    </button>
-                    <button class="region-dropdown-item" data-region="aco" onclick="setRegion('aco')">
-                        <span>🌋</span> Açores
-                    </button>
-                </div>
-            </div>
         </div>
     </header>
     
     <section class="hero">
         <div class="container">
-            <div class="region-badge" id="region-badge">
-                <span class="region-badge-icon">📍</span>
-                <span class="region-badge-text" id="region-badge-text">Portugal Continental</span>
+            <div class="location-badge">
+                <span class="location-badge-icon">📍</span>
+                <span class="location-badge-text">Portugal</span>
             </div>
             <h1>Guia de Identificação de Bioincrustação</h1>
-            <p id="hero-subtitle">Referência rápida para mergulhadores e inspetores em <span class="region-text">Portugal</span> - saiba o que está a raspar do casco.</p>
+            <p id="hero-subtitle">Referência rápida para mergulhadores e inspetores em Portugal - saiba o que está a raspar do casco.</p>
             <div class="hero-badge">Versão 1.0 • DL 92/2019</div>
-            <div class="print-links">
-                <!-- Links de Impressão -->
-                <a href="#" class="print-btn" target="_blank">
-                    <span class="print-icon">🖨️</span>
-                    <span class="print-text">Cartaz A3</span>
-                    <span class="print-desc">Para a parede</span>
-                </a>
-                <a href="#" class="print-btn" target="_blank">
-                    <span class="print-icon">📖</span>
-                    <span class="print-text">Folheto A5</span>
-                    <span class="print-desc">Guia de bolso</span>
-                </a>
-            </div>
         </div>
     </section>
     
@@ -119,7 +59,7 @@
                             <li><span class="priority medium">ALERTA</span> Ameaça emergente ou praga já estabelecida regionalmente. Documente e reporte.</li>
                             <li><span class="priority low">NATIVA</span> Incrustação normal em Portugal — não é necessário reportar.</li>
                         </ul>
-                        <p style="font-size: 0.85em; color: var(--gray-600); margin-top: 10px;"><em>Decreto-Lei n.º 92/2019 de 10 de julho[cite: 1].</em></p>
+                        <p style="font-size: 0.85em; color: var(--gray-600); margin-top: 10px;"><em>Decreto-Lei n.º 92/2019 de 10 de julho.</em></p>
                     </div>
                 </div>
                 
@@ -151,12 +91,12 @@
                             <div class="species-header">
                                 <div>
                                     <div class="species-name">Sargaço Japonês</div>
-                                    <div class="species-scientific">Sargassum muticum[cite: 1]</div>
+                                    <div class="species-scientific">Sargassum muticum</div>
                                 </div>
                                 <span class="priority high">INVASORA</span>
                             </div>
                             <span class="species-group">Algas Marinhas</span>
-                            <p class="species-description">Alga castanha invasora[cite: 1] que forma tapetes flutuantes densos e se prende fortemente a superfícies duras, como cascos.</p>
+                            <p class="species-description">Alga castanha invasora que forma tapetes flutuantes densos e se prende fortemente a superfícies duras, como cascos.</p>
                             <div class="species-features">
                                 <h4>Como Identificar</h4>
                                 <ul>
@@ -176,12 +116,12 @@
                             <div class="species-header">
                                 <div>
                                     <div class="species-name">Alga Wakame</div>
-                                    <div class="species-scientific">Undaria pinnatifida[cite: 1]</div>
+                                    <div class="species-scientific">Undaria pinnatifida</div>
                                 </div>
                                 <span class="priority high">INVASORA</span>
                             </div>
                             <span class="species-group">Algas Marinhas</span>
-                            <p class="species-description">Alga marinha listada como invasora em Portugal[cite: 1]. Cresce rapidamente nos cascos e infraestruturas portuárias.</p>
+                            <p class="species-description">Alga marinha listada como invasora em Portugal. Cresce rapidamente nos cascos e infraestruturas portuárias.</p>
                             <div class="species-features">
                                 <h4>Como Identificar</h4>
                                 <ul>
@@ -200,12 +140,12 @@
                             <div class="species-header">
                                 <div>
                                     <div class="species-name">Ascídia Estrela</div>
-                                    <div class="species-scientific">Botryllus schlosseri[cite: 1]</div>
+                                    <div class="species-scientific">Botryllus schlosseri</div>
                                 </div>
                                 <span class="priority high">INVASORA</span>
                             </div>
                             <span class="species-group">Outros Invertebrados</span>
-                            <p class="species-description">Outro invertebrado colonial listado[cite: 1] que se incrusta em cascos, criando tapetes gelatinosos que sufocam outras espécies.</p>
+                            <p class="species-description">Invertebrado colonial que se incrusta em cascos, criando tapetes gelatinosos que sufocam outras espécies.</p>
                             <div class="species-features">
                                 <h4>Como Identificar</h4>
                                 <ul>
@@ -224,12 +164,12 @@
                             <div class="species-header">
                                 <div>
                                     <div class="species-name">Craca Estriada</div>
-                                    <div class="species-scientific">Amphibalanus amphitrite[cite: 1]</div>
+                                    <div class="species-scientific">Amphibalanus amphitrite</div>
                                 </div>
                                 <span class="priority high">INVASORA</span>
                             </div>
                             <span class="species-group">Crustáceos</span>
-                            <p class="species-description">Crustáceo listado[cite: 1] de águas quentes. Causa enorme arrasto hidrodinâmico nos navios e espalha-se rapidamente.</p>
+                            <p class="species-description">Crustáceo de águas quentes. Causa enorme arrasto hidrodinâmico nos navios e espalha-se rapidamente.</p>
                             <div class="species-features">
                                 <h4>Como Identificar</h4>
                                 <ul>
@@ -258,12 +198,12 @@
                             <div class="species-header">
                                 <div>
                                     <div class="species-name">Caranguejo-Chinês</div>
-                                    <div class="species-scientific">Eriocheir sinensis[cite: 1]</div>
+                                    <div class="species-scientific">Eriocheir sinensis</div>
                                 </div>
                                 <span class="priority high">INVASORA</span>
                             </div>
                             <span class="species-group">Crustáceos</span>
-                            <p class="species-description">Crustáceo invasor[cite: 1] que viaja muitas vezes escondido em reentrâncias ou em águas de lastro. Migra entre o mar e estuários dulçaquícolas.</p>
+                            <p class="species-description">Crustáceo invasor que viaja muitas vezes escondido em reentrâncias ou em águas de lastro. Migra entre o mar e estuários dulçaquícolas.</p>
                             <div class="species-features">
                                 <h4>Como Identificar</h4>
                                 <ul>
@@ -282,12 +222,12 @@
                             <div class="species-header">
                                 <div>
                                     <div class="species-name">Amêijoa Mija-Mija</div>
-                                    <div class="species-scientific">Mya arenaria[cite: 1]</div>
+                                    <div class="species-scientific">Mya arenaria</div>
                                 </div>
                                 <span class="priority high">INVASORA</span>
                             </div>
                             <span class="species-group">Moluscos</span>
-                            <p class="species-description">Espécie de molusco[cite: 1] bivalve. Encontrado frequentemente em sedimentos que se acumulam no fundo das caixas de mar de navios parados muito tempo.</p>
+                            <p class="species-description">Espécie de molusco bivalve. Encontrado frequentemente em sedimentos que se acumulam no fundo das caixas de mar de navios parados muito tempo.</p>
                             <div class="species-features">
                                 <h4>Como Identificar</h4>
                                 <ul>
@@ -341,7 +281,7 @@
             <section id="reference">
                 <h2 class="section-title">Consulta Rápida — Portugal</h2>
                 
-                <p class="ref-note"><em>Baseado na Lista Nacional de Espécies Invasoras (Anexo II do Decreto-Lei n.º 92/2019)[cite: 1].</em></p>
+                <p class="ref-note"><em>Baseado na Lista Nacional de Espécies Invasoras (Anexo II do Decreto-Lei n.º 92/2019).</em></p>
                 
                 <h3 class="ref-section-title noxious">🛑 Invasoras Listadas — Reporte às Autoridades</h3>
                 <div class="table-container">
@@ -354,12 +294,12 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr><td>Alga</td><td><strong>Sargaço Japonês</strong> <em>(S. muticum)</em></td><td>Vesículas de ar tipo "bagas", amarelado[cite: 1]</td></tr>
-                            <tr><td>Alga</td><td><strong>Alga Wakame</strong> <em>(U. pinnatifida)</em></td><td>Veio central marcado, base ondulada[cite: 1]</td></tr>
-                            <tr><td>Crustáceo</td><td><strong>Craca Estriada</strong> <em>(A. amphitrite)</em></td><td>Cone com linhas roxas/castanhas verticais[cite: 1]</td></tr>
-                            <tr><td>Crustáceo</td><td><strong>Caranguejo-Chinês</strong> <em>(E. sinensis)</em></td><td>Garras peludas, nas caixas de mar[cite: 1]</td></tr>
-                            <tr><td>Molusco</td><td><strong>Amêijoa Mija-Mija</strong> <em>(M. arenaria)</em></td><td>Sifão longo, no lodo das grelhas[cite: 1]</td></tr>
-                            <tr><td>Outro</td><td><strong>Ascídia Estrela</strong> <em>(B. schlosseri)</em></td><td>Tapete gelatinoso, forma de pequenas estrelas[cite: 1]</td></tr>
+                            <tr><td>Alga</td><td><strong>Sargaço Japonês</strong> <em>(S. muticum)</em></td><td>Vesículas de ar tipo "bagas", amarelado</td></tr>
+                            <tr><td>Alga</td><td><strong>Alga Wakame</strong> <em>(U. pinnatifida)</em></td><td>Veio central marcado, base ondulada</td></tr>
+                            <tr><td>Crustáceo</td><td><strong>Craca Estriada</strong> <em>(A. amphitrite)</em></td><td>Cone com linhas roxas/castanhas verticais</td></tr>
+                            <tr><td>Crustáceo</td><td><strong>Caranguejo-Chinês</strong> <em>(E. sinensis)</em></td><td>Garras peludas, nas caixas de mar</td></tr>
+                            <tr><td>Molusco</td><td><strong>Amêijoa Mija-Mija</strong> <em>(M. arenaria)</em></td><td>Sifão longo, no lodo das grelhas</td></tr>
+                            <tr><td>Outro</td><td><strong>Ascídia Estrela</strong> <em>(B. schlosseri)</em></td><td>Tapete gelatinoso, forma de pequenas estrelas</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -380,7 +320,7 @@
                     <div class="contact-card">
                         <h3>ICNF</h3>
                         <p><strong>Instituto da Conservação da Natureza e das Florestas</strong></p>
-                        <p>A entidade responsável pela gestão e reporte de espécies invasoras em Portugal Continental.</p>
+                        <p>A entidade responsável pela gestão e reporte de espécies invasoras em Portugal.</p>
                         <p><strong>Website:</strong> <a href="https://www.icnf.pt" target="_blank" style="color: inherit;">www.icnf.pt</a></p>
                     </div>
 
@@ -399,7 +339,7 @@
         <div class="container">
             <div class="footer-main">
                 <p>© 2026 BioID Portugal</p>
-                <p>Informação adaptada da Lista Nacional de Espécies Invasoras (DL 92/2019)[cite: 1].</p>
+                <p>Informação adaptada da Lista Nacional de Espécies Invasoras (DL 92/2019).</p>
             </div>
         </div>
     </footer>
