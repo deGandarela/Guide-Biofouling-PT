@@ -20,7 +20,7 @@
   {
     "category": "invasive",
     "dataName": "undaria pinnatifida wakame algae",
-    "region": "europe atlantic mediterranean north-sea oceania americas na-pacific sa-atlantic south-africa",
+    "region": "europe atlantic mediterranean north-sea oceania americas na-pacific sa-atlantic south-africa africa-me",
     "images": "assets/Wakame1.jpg, assets/Wakame.jpg",
     "mainImage": "assets/Wakame1.jpg",
     "name": "Wakame",
@@ -72,9 +72,9 @@
     ]
   },
   {
-   "category": "invasive",
+    "category": "invasive",
     "dataName": "rugulopteryx okamurae asian brown weed algae",
-    "region": "europe mediterranean atlantic west-africa",
+    "region": "europe mediterranean atlantic west-africa africa-me",
     "images": "assets/Asian_Brown_Weed.jpg",
     "mainImage": "assets/Asian_Brown_Weed.jpg",
     "name": "Asian Brown Weed",
@@ -213,9 +213,9 @@
     ]
   },
   {
-  "category": "niche-species",
+    "category": "niche-species",
     "dataName": "callinectes sapidus atlantic blue crab",
-    "region": "europe mediterranean black-sea atlantic east-asia",
+    "region": "europe mediterranean black-sea atlantic east-asia indo-pacific",
     "images": "assets/Atlantic_Blue_Crab.jpg",
     "mainImage": "assets/Atlantic_Blue_Crab.jpg",
     "name": "Atlantic Blue Crab",
@@ -285,7 +285,7 @@
   {
     "category": "niche-species",
     "dataName": "carcinus maenas european green crab",
-    "region": "americas na-atlantic na-pacific sa-atlantic oceania east-asia south-africa",
+    "region": "americas na-atlantic na-pacific sa-atlantic oceania east-asia indo-pacific south-africa africa-me",
     "images": "assets/European_Green_Crab.webp",
     "mainImage": "assets/European_Green_Crab.webp",
     "name": "European Green Crab",
@@ -323,7 +323,7 @@
   {
     "category": "invasive",
     "dataName": "tubastraea coccinea orange cup coral",
-    "region": "americas gulf-mexico caribbean sa-atlantic west-africa",
+    "region": "americas gulf-mexico caribbean sa-atlantic west-africa africa-me",
     "images": "assets/Orange_Cup_Coral.webp, assets/Orange_Cup_Coral.jpg",
     "mainImage": "assets/Orange_Cup_Coral.webp",
     "name": "Orange Cup Coral",
@@ -342,7 +342,7 @@
   {
     "category": "invasive",
     "dataName": "ciona intestinalis vase tunicate sea squirt",
-    "region": "americas na-pacific sa-pacific oceania indo-pacific south-africa",
+    "region": "americas na-pacific sa-pacific oceania indo-pacific south-africa africa-me",
     "images": "assets/Vase_Tunicate.jpg",
     "mainImage": "assets/Vase_Tunicate.jpg",
     "name": "Vase Tunicate",
@@ -437,7 +437,7 @@
   {
     "category": "invasive",
     "dataName": "ficopomatus enigmaticus australian tubeworm",
-    "region": "americas na-atlantic sa-atlantic na-pacific europe atlantic north-sea mediterranean south-africa",
+    "region": "americas na-atlantic sa-atlantic na-pacific europe atlantic north-sea mediterranean south-africa africa-me",
     "images": "assets/Australian_Tubeworm.jpeg, assets/Australian_Tubeworm.png",
     "mainImage": "assets/Australian_Tubeworm.jpeg",
     "name": "Australian Tubeworm",
@@ -456,7 +456,7 @@
   {
     "category": "invasive",
     "dataName": "carijoa riisei snowflake coral",
-    "region": "americas caribbean gulf-mexico sa-atlantic na-pacific south-asia southeast-asia indian-ocean",
+    "region": "americas caribbean gulf-mexico sa-atlantic na-pacific south-asia southeast-asia indian-ocean indo-pacific",
     "images": "assets/Snowflake_Coral.jpg",
     "mainImage": "assets/Snowflake_Coral.jpg",
     "name": "Snowflake Coral",
@@ -549,9 +549,9 @@
     ]
   },
   {
-   "category": "niche-species",
+    "category": "niche-species",
     "dataName": "crepidula fornicata common slipper limpet",
-    "region": "europe atlantic north-sea americas na-pacific sa-atlantic sa-pacific east-asia",
+    "region": "europe atlantic north-sea americas na-pacific sa-atlantic sa-pacific east-asia indo-pacific",
     "images": "assets/Slipper_Limpet.jpg",
     "mainImage": "assets/Slipper_Limpet.jpg",
     "name": "Common Slipper Limpet",
@@ -587,7 +587,7 @@
     ]
   },
   {
-   "category": "niche-species",
+    "category": "niche-species",
     "dataName": "mytilopsis leucophaeata dark false mussel",
     "region": "europe baltic north-sea black-sea americas sa-atlantic",
     "images": "assets/Dark_False_Mussel.jpg, assets/Dark_False_Mussel1.jpg",
@@ -606,9 +606,9 @@
     ]
   },
   {
-  "category": "invasive",
+    "category": "invasive",
     "dataName": "magallana gigas pacific oyster crassostrea",
-    "region": "europe atlantic north-sea mediterranean americas na-pacific na-atlantic sa-pacific sa-atlantic oceania south-africa",
+    "region": "europe atlantic north-sea mediterranean americas na-pacific na-atlantic sa-pacific sa-atlantic oceania south-africa africa-me",
     "images": "assets/Pacific_Oyster.jpg",
     "mainImage": "assets/Pacific_Oyster.jpg",
     "name": "Pacific Oyster",
@@ -625,9 +625,9 @@
     ]
   },
   {
-   "category": "invasive",
+    "category": "invasive",
     "dataName": "caulerpa cylindracea grape caulerpa algae",
-    "region": "europe mediterranean west-africa",
+    "region": "europe mediterranean west-africa africa-me",
     "images": "assets/Grape_Caulerpa.jpg, assets/Grape_Caulerpa.webp",
     "mainImage": "assets/Grape_Caulerpa.jpg",
     "name": "Grape Caulerpa",
@@ -779,7 +779,7 @@
   {
     "category": "invasive",
     "dataName": "codium fragile dead mans fingers green sea fleece algae",
-    "region": "oceania europe americas south-africa",
+    "region": "oceania europe americas south-africa africa-me",
     "images": "assets/Dead_Mans_Fingers.jpg",
     "mainImage": "assets/Dead_Mans_Fingers.jpg",
     "name": "Dead Man's Fingers",
@@ -798,7 +798,7 @@
   {
     "category": "invasive",
     "dataName": "mytilus galloprovincialis mediterranean mussel",
-    "region": "east-asia oceania americas na-pacific sa-pacific sa-atlantic south-africa",
+    "region": "east-asia indo-pacific oceania americas na-pacific sa-pacific sa-atlantic south-africa africa-me",
     "images": "assets/Mediterranean_Mussel.jpg",
     "mainImage": "assets/Mediterranean_Mussel.jpg",
     "name": "Mediterranean Mussel",
@@ -816,7 +816,7 @@
   {
     "category": "invasive",
     "dataName": "crepidula onyx onyx slipper snail",
-    "region": "east-asia southeast-asia",
+    "region": "east-asia southeast-asia indo-pacific",
     "images": "assets/Onyx_Slipper_Snail.jpg",
     "mainImage": "assets/Onyx_Slipper_Snail.jpg",
     "name": "Onyx Slipper Snail",
@@ -835,7 +835,7 @@
   {
     "category": "invasive",
     "dataName": "amphibalanus eburneus ivory barnacle",
-    "region": "east-asia south-asia southeast-asia indian-ocean europe atlantic mediterranean black-sea west-africa",
+    "region": "east-asia south-asia southeast-asia indian-ocean indo-pacific europe atlantic mediterranean black-sea west-africa africa-me",
     "images": "assets/Ivory_Barnacle.jpg",
     "mainImage": "assets/Ivory_Barnacle.jpg",
     "name": "Ivory Barnacle",
@@ -854,7 +854,7 @@
   {
     "category": "niche-species",
     "dataName": "xenostrobus securis pygmy mussel",
-    "region": "east-asia europe mediterranean",
+    "region": "east-asia indo-pacific europe mediterranean",
     "images": "assets/Pygmy_Mussel.jpg",
     "mainImage": "assets/Pygmy_Mussel.jpg",
     "name": "Pygmy Mussel",
@@ -873,7 +873,7 @@
   {
     "category": "invasive",
     "dataName": "perna perna brown mussel",
-    "region": "south-asia indian-ocean americas gulf-mexico",
+    "region": "south-asia indian-ocean indo-pacific americas gulf-mexico",
     "images": "assets/Brown_Mussel.webp",
     "mainImage": "assets/Brown_Mussel.webp",
     "name": "Brown Mussel",
@@ -891,7 +891,7 @@
   {
     "category": "invasive",
     "dataName": "ascidiella aspersa european sea squirt",
-    "region": "east-asia south-asia americas na-atlantic sa-atlantic oceania south-africa",
+    "region": "east-asia south-asia indo-pacific americas na-atlantic sa-atlantic oceania south-africa africa-me",
     "images": "assets/European_Sea_Squirt.jpg",
     "mainImage": "assets/European_Sea_Squirt.jpg",
     "name": "European Sea Squirt",
@@ -910,7 +910,7 @@
   {
     "category": "invasive",
     "dataName": "arcuatula senhousia asian date mussel",
-    "region": "arabian-gulf red-sea europe mediterranean atlantic north-sea americas na-pacific oceania west-africa",
+    "region": "arabian-gulf red-sea west-africa africa-me europe mediterranean atlantic north-sea americas na-pacific oceania",
     "images": "assets/Asian_Date_Mussel.jpg",
     "mainImage": "assets/Asian_Date_Mussel.jpg",
     "name": "Asian Date Mussel",
@@ -928,7 +928,7 @@
   {
     "category": "invasive",
     "dataName": "schizoporella errata branching bryozoan",
-    "region": "arabian-gulf red-sea west-africa south-africa americas na-atlantic sa-atlantic na-pacific sa-pacific oceania east-asia south-asia southeast-asia indian-ocean europe atlantic",
+    "region": "arabian-gulf red-sea west-africa south-africa africa-me americas na-atlantic sa-atlantic na-pacific sa-pacific oceania east-asia south-asia southeast-asia indian-ocean indo-pacific europe atlantic",
     "images": "assets/Branching_Bryozoan.jpg",
     "mainImage": "assets/Branching_Bryozoan.jpg",
     "name": "Branching Bryozoan",
@@ -946,7 +946,7 @@
   {
     "category": "invasive",
     "dataName": "hydroides dianthus encrusting tubeworm",
-    "region": "arabian-gulf red-sea west-africa south-africa europe mediterranean atlantic black-sea east-asia americas sa-atlantic",
+    "region": "arabian-gulf red-sea west-africa south-africa africa-me europe mediterranean atlantic black-sea east-asia indo-pacific americas sa-atlantic",
     "images": "assets/Encrusting_Tubeworm.jpg",
     "mainImage": "assets/Encrusting_Tubeworm.jpg",
     "name": "Encrusting Tubeworm",
