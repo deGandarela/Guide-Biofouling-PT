@@ -306,7 +306,7 @@
     "dataName": "dreissena polymorpha zebra mussel",
     "region": "americas great-lakes",
     "images": "assets/Zebra_Mussel.jpg",
-    "mainImage": "assets/Zebra_Mussel.jpg",
+    "mainImage": "assets/Zebra_Mussel.webp",
     "name": "Zebra Mussel",
     "scientific": "Dreissena polymorpha",
     "priority": "INVASIVE",
