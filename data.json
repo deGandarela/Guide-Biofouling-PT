@@ -628,7 +628,7 @@
     "category": "invasive",
     "dataName": "caulerpa cylindracea grape caulerpa algae",
     "region": "europe mediterranean",
-    "images": "assets/Grape_Caulerpa.jpg",
+    "images": "assets/Grape_Caulerpa.jpg, assets/Grape_Caulerpa.webp",
     "mainImage": "assets/Grape_Caulerpa.jpg",
     "name": "Grape Caulerpa",
     "scientific": "Caulerpa cylindracea",
