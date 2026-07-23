@@ -325,7 +325,7 @@
     "dataName": "tubastraea coccinea orange cup coral",
     "region": "americas gulf-mexico caribbean sa-atlantic",
     "images": "assets/Orange_Cup_Coral.jpg",
-    "mainImage": "assets/Orange_Cup_Coral.jpg",
+    "mainImage": "assets/Orange_Cup_Coral.webp, assets/Orange_Cup_Coral.jpg",
     "name": "Orange Cup Coral",
     "scientific": "Tubastraea coccinea",
     "priority": "INVASIVE",
