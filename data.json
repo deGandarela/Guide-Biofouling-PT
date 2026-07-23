@@ -376,5 +376,176 @@
       "Clings to algae, ropes, and buoys in massive swarms",
       "Males have large, fuzzy claws"
     ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "mytilopsis sallei black-striped mussel",
+    "region": "americas caribbean gulf-mexico sa-atlantic na-pacific",
+    "images": "assets/Black_Striped_Mussel.jpg",
+    "mainImage": "assets/Black_Striped_Mussel.jpg",
+    "name": "Black-striped Mussel",
+    "scientific": "Mytilopsis sallei",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Molluscs",
+    "description": "A highly destructive marine and brackish bivalve. It forms massive, dense layers on ship hulls, sea water piping, and port infrastructure, often destroying local biodiversity.",
+    "features": [
+      "Small shell (up to 2.5 cm)",
+      "Dark brown to black stripes or completely black/dark brown",
+      "Very similar to the Zebra Mussel, but lives in marine/estuarine environments",
+      "Grows in exceptionally tight, multi-layered clusters"
+    ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "watersipora subtorquata red rust bryozoan",
+    "region": "americas na-pacific sa-pacific na-atlantic sa-atlantic gulf-mexico caribbean",
+    "images": "assets/Red_Rust_Bryozoan.jpg",
+    "mainImage": "assets/Red_Rust_Bryozoan.jpg",
+    "name": "Red Rust Bryozoan",
+    "scientific": "Watersipora subtorquata",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Other Invertebrates",
+    "description": "A critical biofouling threat because it is highly resistant to copper-based anti-fouling paints. Once it attaches to a hull, it provides a safe surface for other invasive species to settle on.",
+    "features": [
+      "Forms flat, crusty, or leafy colonies",
+      "Striking bright red, orange, or rust-black color",
+      "Hard, brittle texture like a potato chip",
+      "Often found directly on anti-fouling paint"
+    ]
+  },
+  {
+    "category": "niche-species",
+    "dataName": "pterois volitans red lionfish",
+    "region": "americas gulf-mexico caribbean sa-atlantic na-atlantic",
+    "images": "assets/Red_Lionfish.jpg",
+    "mainImage": "assets/Red_Lionfish.jpg",
+    "name": "Red Lionfish",
+    "scientific": "Pterois volitans",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Fish",
+    "description": "One of the most devastating invasive fish in the Atlantic and Caribbean. While introduced via aquarium trade/ballast, port divers frequently encounter them hiding in sea chests, dock pilings, and wrecks.",
+    "features": [
+      "Distinctive red, maroon, and white vertical stripes",
+      "Large, fan-like pectoral fins",
+      "Long, separated dorsal spines containing potent venom",
+      "Extremely dangerous to handle"
+    ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "ficopomatus enigmaticus australian tubeworm",
+    "region": "americas na-atlantic sa-atlantic na-pacific",
+    "images": "assets/Australian_Tubeworm.jpg",
+    "mainImage": "assets/Australian_Tubeworm.jpg",
+    "name": "Australian Tubeworm",
+    "scientific": "Ficopomatus enigmaticus",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Other Invertebrates",
+    "description": "A reef-building tubeworm that thrives in ports and estuaries. It rapidly encrusts hulls and propellers with heavy, rock-hard calcium carbonate tubes.",
+    "features": [
+      "Builds intertwining, white calcareous (chalky) tubes",
+      "Tubes are typically 1-2 mm wide but form massive reefs",
+      "Worm has a feathery, brown/green crown when extended",
+      "Leaves sharp, razor-like crusts when scraped off"
+    ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "carijoa riisei snowflake coral",
+    "region": "americas caribbean gulf-mexico sa-atlantic na-pacific",
+    "images": "assets/Snowflake_Coral.jpg",
+    "mainImage": "assets/Snowflake_Coral.jpg",
+    "name": "Snowflake Coral",
+    "scientific": "Carijoa riisei",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Other Invertebrates",
+    "description": "A highly invasive soft coral that grows rapidly on shaded artificial structures, metal hulls, and oil rigs, completely smothering native black corals.",
+    "features": [
+      "Erect, branching, tree-like stems",
+      "Branches are covered in beautiful, white, star-like polyps",
+      "Stems are often pale pink or orange beneath the white polyps",
+      "Thrives in dark niche areas and under piers"
+    ]
+  },
+  {
+    "category": "niche-species",
+    "dataName": "phyllorhiza punctata australian spotted jellyfish",
+    "region": "americas gulf-mexico caribbean sa-atlantic",
+    "images": "assets/Spotted_Jellyfish.jpg",
+    "mainImage": "assets/Spotted_Jellyfish.jpg",
+    "name": "Australian Spotted Jellyfish",
+    "scientific": "Phyllorhiza punctata",
+    "priority": "WATCH",
+    "priorityClass": "medium",
+    "group": "Other Invertebrates",
+    "description": "While adults are free-swimming and clog fishing nets, they spread globally because their polyp stage attaches to ship hulls like biofouling.",
+    "features": [
+      "Large, brownish bell covered in bright white spots",
+      "Chunky, cauliflower-like oral arms instead of trailing tentacles",
+      "Can grow up to 50 cm (20 inches) across",
+      "Forms massive swarms in the Gulf of Mexico"
+    ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "bugula neritina brown bryozoan",
+    "region": "americas na-atlantic sa-atlantic na-pacific gulf-mexico",
+    "images": "assets/Brown_Bryozoan.jpg",
+    "mainImage": "assets/Brown_Bryozoan.jpg",
+    "name": "Brown Bryozoan",
+    "scientific": "Bugula neritina",
+    "priority": "WATCH",
+    "priorityClass": "medium",
+    "group": "Other Invertebrates",
+    "description": "A notorious and widespread macro-fouling organism. It creates immense hydrodynamic drag on vessels and easily transports across oceans on hull surfaces.",
+    "features": [
+      "Looks like a bushy, dark purple or reddish-brown seaweed",
+      "Actually an animal colony, not a plant",
+      "Grows in clumps up to 8-10 cm high",
+      "Feels slightly stiff or crispy compared to soft algae"
+    ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "caulerpa taxifolia killer algae",
+    "region": "americas na-pacific caribbean",
+    "images": "assets/Killer_Algae.jpg",
+    "mainImage": "assets/Killer_Algae.jpg",
+    "name": "Killer Algae",
+    "scientific": "Caulerpa taxifolia",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Marine Algae",
+    "description": "A highly toxic, aggressive green algae that can clone itself from tiny fragments left on anchors or hull crevices. Eradicated in California but remains a strict watch species.",
+    "features": [
+      "Bright, neon green color",
+      "Looks like underwater fern or flattened feathers",
+      "Grows rapidly on a horizontal runner (stolon)",
+      "Toxic to most marine herbivores"
+    ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "diadumene lineata orange-striped green anemone",
+    "region": "americas na-atlantic sa-atlantic na-pacific gulf-mexico",
+    "images": "assets/Orange_Striped_Anemone.jpg",
+    "mainImage": "assets/Orange_Striped_Anemone.jpg",
+    "name": "Orange-striped Green Anemone",
+    "scientific": "Diadumene lineata",
+    "priority": "WATCH",
+    "priorityClass": "medium",
+    "group": "Other Invertebrates",
+    "description": "A tiny but incredibly resilient anemone that thrives on ship hulls and survives extreme temperature and salinity changes during ocean crossings.",
+    "features": [
+      "Small body, rarely larger than 3 cm",
+      "Olive green column usually marked with vertical orange or yellow stripes",
+      "Up to 100 thin, translucent tentacles",
+      "Often found growing among mussels and barnacles on hulls"
+    ]
   }
 
