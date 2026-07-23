@@ -867,4 +867,5 @@ header .container {
 /* Garante que o menu de navegação não se cola ao logo se o ecrã for pequeno */
 header nav {
     margin-left: auto;
+    margin-right: 60px; /* Aumenta ou diminui este valor para chegar os menus mais para a esquerda ou direita */
 }
