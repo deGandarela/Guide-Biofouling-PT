@@ -12,18 +12,37 @@
     
     <header>
         <div class="container">
-            <a href="#" class="logo"><div style="font-weight: bold; color: white; font-size: 1.2rem;">BioID Europe</div></a>
+            <a href="#" class="logo"><div style="font-weight: bold; color: white; font-size: 1.2rem;">BioID Global</div></a>
             <nav>
                 <ul>
-                    <!-- O novo menu suspenso de filtro -->
                     <li>
                         <select id="nav-region-filter" class="nav-select">
-                            <option value="all"> Typical Operating Areas (Climate Zones)</option>
-                            <option value="mediterranean"> Mediterranean Sea</option>
-                            <option value="atlantic"> Atlantic Coast</option>
-                            <option value="north-sea"> North Sea</option>
-                            <option value="baltic"> Baltic Sea</option>
-                            <option value="black-sea"> Black Sea</option>
+                            <option value="all">🌍 Global (All Waters)</option>
+                            
+                            <optgroup label="Europe Seas">
+                                <option value="europe">🇪🇺 All Europe</option>
+                                <option value="mediterranean">🌊 Mediterranean Sea</option>
+                                <option value="atlantic">🌊 Atlantic Coast</option>
+                                <option value="north-sea">🌊 North Sea</option>
+                                <option value="baltic">🌊 Baltic Sea</option>
+                                <option value="black-sea">🌊 Black Sea</option>
+                            </optgroup>
+                            
+                            <optgroup label="Americas & Caribbean">
+                                <option value="americas">🌎 Americas (All)</option>
+                                <option value="caribbean">🌊 Wider Caribbean</option>
+                                <option value="pacific-coast">🌊 Pacific Coast</option>
+                            </optgroup>
+                            
+                            <optgroup label="Asia & Indo-Pacific">
+                                <option value="indo-pacific">🌏 Indo-Pacific (All)</option>
+                                <option value="east-asia">🌊 East Asian Seas</option>
+                            </optgroup>
+                            
+                            <optgroup label="Africa & Middle East">
+                                <option value="africa-me">🌍 Africa & Middle East (All)</option>
+                                <option value="red-sea">🌊 Red Sea & Gulf of Aden</option>
+                            </optgroup>
                         </select>
                     </li>
                     <li><a href="#invasive">Invasive (Hull)</a></li>
