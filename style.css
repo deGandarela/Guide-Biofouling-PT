@@ -837,5 +837,5 @@ footer p { opacity: 0.8; font-size: 0.9rem; }
 /* Estilo específico para os títulos das categorias (ex: "Europe Seas") */
 .nav-select optgroup {
     font-weight: 700;
-    color: var(--primary-light); /* Dá um tom verde mais claro aos títulos para se distinguirem das opções clicáveis */
+    color: #86efac; /* Verde pastel muito claro e legível */
 }
