@@ -262,5 +262,119 @@
       "Eel-like body with four pairs of barbels around the mouth",
       "Brown-black body with two white/yellow horizontal stripes"
     ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "perna viridis asian green mussel",
+    "region": "americas caribbean gulf-mexico sa-atlantic",
+    "images": "assets/Asian_Green_Mussel.jpg",
+    "mainImage": "assets/Asian_Green_Mussel.jpg",
+    "name": "Asian Green Mussel",
+    "scientific": "Perna viridis",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Molluscs",
+    "description": "A large, fast-growing mussel that severely fouls hulls, sea chests, and intake pipes throughout the Caribbean, Gulf of Mexico, and South America.",
+    "features": [
+      "Vivid green to dark green outer shell edge",
+      "Smooth, elongated, and teardrop-shaped",
+      "Can grow up to 16 cm (6 inches) long",
+      "Forms extremely dense clusters on hard structures"
+    ]
+  },
+  {
+    "category": "niche-species",
+    "dataName": "carcinus maenas european green crab",
+    "region": "americas na-atlantic na-pacific sa-atlantic",
+    "images": "assets/European_Green_Crab.jpg",
+    "mainImage": "assets/European_Green_Crab.jpg",
+    "name": "European Green Crab",
+    "scientific": "Carcinus maenas",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Crustaceans",
+    "description": "Listed as one of the world's 100 worst invasive species. It travels globally via ballast water and sea chests, devastating native bivalve populations along North and South American coasts.",
+    "features": [
+      "Five distinct spines on the outside edge of each eye",
+      "Carapace is broader than it is long",
+      "Color ranges from dark green to brown or reddish patches",
+      "Highly aggressive when approached"
+    ]
+  },
+  {
+    "category": "niche-species",
+    "dataName": "dreissena polymorpha zebra mussel",
+    "region": "americas great-lakes",
+    "images": "assets/Zebra_Mussel.jpg",
+    "mainImage": "assets/Zebra_Mussel.jpg",
+    "name": "Zebra Mussel",
+    "scientific": "Dreissena polymorpha",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Molluscs",
+    "description": "A freshwater and estuarine bivalve introduced via ballast water. It causes billions of dollars in damage by clogging cooling systems and ship internal piping in North America.",
+    "features": [
+      "Small, D-shaped shell",
+      "Distinctive zigzag or striped black-and-white pattern",
+      "Sits flat on its underside",
+      "Typically very small (the size of a fingernail)"
+    ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "tubastraea coccinea orange cup coral",
+    "region": "americas gulf-mexico caribbean sa-atlantic",
+    "images": "assets/Orange_Cup_Coral.jpg",
+    "mainImage": "assets/Orange_Cup_Coral.jpg",
+    "name": "Orange Cup Coral",
+    "scientific": "Tubastraea coccinea",
+    "priority": "INVASIVE",
+    "priorityClass": "high",
+    "group": "Other Invertebrates",
+    "description": "An invasive stony coral that heavily fouls ship hulls and oil rigs in the Gulf of Mexico and Brazil, outcompeting native sponges and corals.",
+    "features": [
+      "Bright orange, red, or yellow polyps",
+      "Forms cup-like skeletal structures",
+      "Does not rely on sunlight (can grow in dark sea chests)",
+      "Extends bright yellow tentacles at night to feed"
+    ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "ciona intestinalis vase tunicate sea squirt",
+    "region": "americas na-atlantic na-pacific sa-atlantic sa-pacific",
+    "images": "assets/Vase_Tunicate.jpg",
+    "mainImage": "assets/Vase_Tunicate.jpg",
+    "name": "Vase Tunicate",
+    "scientific": "Ciona intestinalis",
+    "priority": "WATCH",
+    "priorityClass": "medium",
+    "group": "Other Invertebrates",
+    "description": "A solitary sea squirt that creates massive biofouling weight on vessel hulls and aquaculture gear across both coasts of the Americas.",
+    "features": [
+      "Tubular, translucent, jelly-like body",
+      "Yellow or green tint at the tips of its siphons",
+      "Grows densely packed together like tubes",
+      "Can squirt water when squeezed or removed"
+    ]
+  },
+  {
+    "category": "invasive",
+    "dataName": "caprella mutica japanese skeleton shrimp",
+    "region": "americas na-atlantic na-pacific",
+    "images": "assets/Skeleton_Shrimp.jpg",
+    "mainImage": "assets/Skeleton_Shrimp.jpg",
+    "name": "Skeleton Shrimp",
+    "scientific": "Caprella mutica",
+    "priority": "WATCH",
+    "priorityClass": "medium",
+    "group": "Crustaceans",
+    "description": "A highly invasive amphipod that travels in secondary biofouling (living on algae that grows on hulls). Extremely prevalent in US and Canadian ports.",
+    "features": [
+      "Looks like an underwater praying mantis or stick insect",
+      "Thread-like body, often red or brown",
+      "Clings to algae, ropes, and buoys in massive swarms",
+      "Males have large, fuzzy claws"
+    ]
   }
-]
+
