@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <title>Biofouling ID Guide - Europe</title>
+    <title>Biofouling ID Guide - Global</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +18,6 @@
                     <li>
                         <select id="nav-region-filter" class="nav-select">
                             <option value="all">🌍 Global (All Waters)</option>
-                            
                             <optgroup label="Europe Seas">
                                 <option value="europe">🇪🇺 All Europe</option>
                                 <option value="mediterranean">🌊 Mediterranean Sea</option>
@@ -27,18 +26,15 @@
                                 <option value="baltic">🌊 Baltic Sea</option>
                                 <option value="black-sea">🌊 Black Sea</option>
                             </optgroup>
-                            
                             <optgroup label="Americas & Caribbean">
                                 <option value="americas">🌎 Americas (All)</option>
                                 <option value="caribbean">🌊 Wider Caribbean</option>
                                 <option value="pacific-coast">🌊 Pacific Coast</option>
                             </optgroup>
-                            
                             <optgroup label="Asia & Indo-Pacific">
                                 <option value="indo-pacific">🌏 Indo-Pacific (All)</option>
                                 <option value="east-asia">🌊 East Asian Seas</option>
                             </optgroup>
-                            
                             <optgroup label="Africa & Middle East">
                                 <option value="africa-me">🌍 Africa & Middle East (All)</option>
                                 <option value="red-sea">🌊 Red Sea & Gulf of Aden</option>
@@ -53,7 +49,7 @@
         </div>
     </header>
     
-   <section class="hero">
+    <section class="hero">
         <div class="container">
             <div class="location-badge">
                 <span class="location-badge-icon">📍</span>
@@ -67,26 +63,24 @@
     
     <main>
         <div class="container">
-            <!-- Introduction Section -->
             <section id="intro">
                 <h2 class="section-title">What is this guide for?</h2>
-                
                 <div class="info-grid">
                     <div class="info-card">
                         <h3>The Job</h3>
-                        <p>You are going to clean hulls or inspect sea chests. You need to identify dangerous species before scraping them. This guide shows what to look for and what to report in European waters.</p>
+                        <p>You are going to clean hulls or inspect sea chests. You need to identify dangerous species before scraping them. This guide shows what to look for and what to report.</p>
                     </div>
                     <div class="info-card">
                         <h3>Why It Matters</h3>
-                        <p>Marine pests hitch rides on ship hulls. Some have already established themselves in European ports, threatening biodiversity and aquaculture. Divers are our first line of defense.</p>
+                        <p>Marine pests hitch rides on ship hulls. Some have already established themselves in ports worldwide, threatening biodiversity and aquaculture. Divers are our first line of defense.</p>
                     </div>
                     <div class="info-card">
                         <h3>Priority Levels</h3>
                         <ul class="priority-list">
-                            <li><span class="priority high">INVASIVE</span> Species listed in European legislation. Stop work and report to authorities within 24 hours.</li>
+                            <li><span class="priority high">INVASIVE</span> Stop work and report to local authorities within 24 hours.</li>
                             <li><span class="priority medium">WATCH</span> Emerging threat or pest already established regionally. Document and report.</li>
                         </ul>
-                        <p style="font-size: 0.85em; color: var(--gray-600); margin-top: 10px;"><em>Based on the European Alien Species Information Network (EASIN).</em></p>
+                        <p style="font-size: 0.85em; color: var(--gray-600); margin-top: 10px;"><em>Based on IMO and EASIN data.</em></p>
                     </div>
                 </div>
                 
@@ -102,385 +96,27 @@
                 </div>
             </section>
             
-            <!-- Invasive Hull Foulers Section -->
             <section id="invasive">
                 <h2 class="section-title danger">Part 1: Invasive Hull Foulers (Primary Fouling)</h2>
                 <p style="margin-bottom: 20px; color: var(--gray-600);">These are the species that stick to the exterior of the hull and require mandatory reporting.</p>
-                
                 <input type="text" class="search-box" id="invasive-search" placeholder="Search species..." onkeyup="filterSpecies('invasive')">
                 
-                <div class="species-grid" id="invasive-grid">
-                    
-                    <!-- Sargassum muticum -->
-                    <div class="species-card invasive" data-name="sargassum muticum japanese wireweed sargassum algae" data-region="atlantic north-sea baltic mediterranean" data-images="assets/Japanese_Wireweed.jpeg, assets/Japanese_Wireweed1.jpg">
-                        <div class="species-image"><img src="assets/Japanese_Wireweed.jpeg" alt="Japanese Wireweed"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Japanese Wireweed</div>
-                                    <div class="species-scientific">Sargassum muticum</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Marine Algae</span>
-                            <p class="species-description">Invasive brown algae that forms dense floating mats and attaches strongly to hard surfaces like hulls.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Brown/yellowish algae</li>
-                                    <li>Small air vesicles (look like berries)</li>
-                                    <li>Can grow up to several meters long</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Undaria pinnatifida -->
-                    <div class="species-card invasive" data-name="undaria pinnatifida wakame algae" data-region="atlantic mediterranean north-sea" data-images="assets/Wakame1.jpg, assets/Wakame.jpg">
-                        <div class="species-image"><img src="assets/Wakame1.jpg" alt="Wakame"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Wakame</div>
-                                    <div class="species-scientific">Undaria pinnatifida</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Marine Algae</span>
-                            <p class="species-description">Marine algae listed as invasive in Europe. Grows rapidly on hulls and port infrastructure.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Large brown fronds</li>
-                                    <li>Distinct central vein (midrib)</li>
-                                    <li>Very wavy and frilly base (sporophyll)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Botryllus schlosseri -->
-                    <div class="species-card invasive" data-name="botryllus schlosseri star ascidian tunicate" data-region="atlantic mediterranean north-sea baltic black-sea" data-images="assets/Star_Ascidian.jpg, assets/Star_Ascidian1.jpg">
-                        <div class="species-image"><img src="assets/Star_Ascidian.jpg" alt="Star Ascidian"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Star Ascidian</div>
-                                    <div class="species-scientific">Botryllus schlosseri</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Other Invertebrates</span>
-                            <p class="species-description">Colonial invertebrate that encrusts on hulls, creating gelatinous mats that smother other species.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Colonies form star-shaped patterns</li>
-                                    <li>Gelatinous/rubbery texture</li>
-                                    <li>Various colors (orange, yellow, green, purple)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Amphibalanus amphitrite -->
-                    <div class="species-card invasive" data-name="amphibalanus amphitrite striped barnacle" data-region="atlantic mediterranean black-sea">
-                        <div class="species-image"><img src="assets/Striped_Barnacle.jpg" alt="Striped Barnacle"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Striped Barnacle</div>
-                                    <div class="species-scientific">Amphibalanus amphitrite</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Crustaceans</span>
-                            <p class="species-description">Warm-water crustacean. Causes huge hydrodynamic drag on ships and spreads rapidly.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Calcareous cone shape</li>
-                                    <li>Vertical purple or brown stripes/lines</li>
-                                    <li>Direct primary fouling on metal/paint</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Rugulopteryx okamurae -->
-                    <div class="species-card invasive" data-name="rugulopteryx okamurae asian brown weed algae" data-region="mediterranean atlantic" data-images="assets/Asian_Brown_Weed.jpg">
-                        <div class="species-image"><img src="assets/Asian_Brown_Weed.jpg" alt="Asian Brown Weed"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Asian Brown Weed</div>
-                                    <div class="species-scientific">Rugulopteryx okamurae</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Marine Algae</span>
-                            <p class="species-description">A highly aggressive brown algae that covers massive areas of the rocky seabed. Transferred via anchors and fishing gear.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Yellowish-brown, flat, ribbon-like branches</li>
-                                    <li>Forms extremely dense mats</li>
-                                    <li>Attaches strongly to hard surfaces and ropes</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Asparagopsis armata -->
-                    <div class="species-card invasive" data-name="asparagopsis armata harpoon weed algae red" data-region="atlantic mediterranean" data-images="assets/Harpoon_Weed.jpg">
-                        <div class="species-image"><img src="assets/Harpoon_Weed.jpg" alt="Harpoon Weed"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Harpoon Weed</div>
-                                    <div class="species-scientific">Asparagopsis armata</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Marine Algae</span>
-                            <p class="species-description">An aggressive red algae officially listed in European legislation. Travels entangled in hull structures and equipment.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Pink to dark red color</li>
-                                    <li>Barbed, harpoon-like hooks on branches</li>
-                                    <li>Fluffy or feathery appearance underwater</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Styela clava -->
-                    <div class="species-card invasive" data-name="styela clava club tunicate ascidian" data-region="atlantic north-sea mediterranean" data-images="assets/Club_Tunicate.jpg">
-                        <div class="species-image"><img src="assets/Club_Tunicate.jpg" alt="Club Tunicate"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Club Tunicate</div>
-                                    <div class="species-scientific">Styela clava</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Other Invertebrates</span>
-                            <p class="species-description">A filter-feeding sea squirt that creates heavy fouling on hulls and docks, significantly increasing vessel drag.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Club or baseball bat shape with a stalk</li>
-                                    <li>Leathery, bumpy outer skin</li>
-                                    <li>Brownish to yellowish color</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Didemnum vexillum -->
-                    <div class="species-card invasive" data-name="didemnum vexillum carpet sea squirt tunicate" data-region="atlantic north-sea mediterranean" data-images="assets/Carpet_Sea_Squirt.jpg">
-                        <div class="species-image"><img src="assets/Carpet_Sea_Squirt.jpg" alt="Carpet Sea Squirt"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Carpet Sea Squirt</div>
-                                    <div class="species-scientific">Didemnum vexillum</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Other Invertebrates</span>
-                            <p class="species-description">A highly invasive colonial tunicate that creates fleshy, mat-like colonies that smother native marine life.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Pale orange, cream, or off-white color</li>
-                                    <li>Looks like dripping wax or vomit</li>
-                                    <li>Leathery, veiny surface</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- O HTML VAZIO ONDE O JAVASCRIPT VAI INSERIR OS CARTÕES -->
+                <div class="species-grid" id="invasive-grid"></div>
             </section>
             
-            <!-- Niche Area Hitchhikers Section -->
             <section id="niche">
                 <h2 class="section-title niche">Part 2: Niche Area Hitchhikers (Hidden)</h2>
-                <p style="margin-bottom: 20px; color: var(--gray-600);">These do not necessarily grow attached to the exterior hull. They hide in sea chests, suction grates, pipes, and bow thrusters, or are transported via ballast water.</p>
+                <p style="margin-bottom: 20px; color: var(--gray-600);">These do not necessarily grow attached to the exterior hull. They hide in sea chests, suction grates, pipes, and bow thrusters.</p>
                 
-                <div class="species-grid" id="niche-grid">
-                    
-                    <!-- Eriocheir sinensis -->
-                    <div class="species-card niche-species" data-name="eriocheir sinensis chinese mitten crab" data-region="north-sea baltic atlantic" data-images="assets/Chinese_Mitten_Crab.jpg, assets/Chinese_Mitten_Crab1.jpg">
-                        <div class="species-image"><img src="assets/Chinese_Mitten_Crab.jpg" alt="Chinese Mitten Crab"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Chinese Mitten Crab</div>
-                                    <div class="species-scientific">Eriocheir sinensis</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Crustaceans</span>
-                            <p class="species-description">Invasive crustacean that travels hidden in crevices or in ballast water. Migrates between the sea and freshwater estuaries.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Claws covered in dense 'wool' or 'hair'</li>
-                                    <li>Olive-green to brown carapace</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Mya arenaria -->
-                    <div class="species-card niche-species" data-name="mya arenaria soft-shell clam" data-region="baltic north-sea atlantic mediterranean black-sea" data-images="assets/Soft_shell_clam.jpg">
-                        <div class="species-image"><img src="assets/Soft_shell_clam.jpg" alt="Soft-shell Clam"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Soft-shell Clam</div>
-                                    <div class="species-scientific">Mya arenaria</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Molluscs</span>
-                            <p class="species-description">Bivalve mollusc frequently found in sediments that accumulate at the bottom of sea chests of ships stationary for a long time.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Oval and fragile (chalky) shell</li>
-                                    <li>Long fleshy siphon (tube)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Hemigrapsus sanguineus -->
-                    <div class="species-card niche-species" data-name="hemigrapsus sanguineus asian shore crab" data-region="north-sea atlantic" data-images="assets/Asian_Shore_Crab.jpg">
-                        <div class="species-image"><img src="assets/Asian_Shore_Crab.jpg" alt="Asian Shore Crab"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Asian Shore Crab</div>
-                                    <div class="species-scientific">Hemigrapsus sanguineus</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Crustaceans</span>
-                            <p class="species-description">A highly invasive crab replacing native species in Northern Europe. Often transported in sea chests and ballast water.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Square-shaped carapace</li>
-                                    <li>Claws with red/blood-like spots</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Mnemiopsis leidyi -->
-                    <div class="species-card niche-species" data-name="mnemiopsis leidyi sea walnut ctenophore" data-region="black-sea baltic north-sea mediterranean" data-images="assets/Sea_Walnut.jpg">
-                        <div class="species-image"><img src="assets/Sea_Walnut.jpg" alt="Sea Walnut"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Sea Walnut</div>
-                                    <div class="species-scientific">Mnemiopsis leidyi</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Other Invertebrates</span>
-                            <p class="species-description">A devastating comb jelly transported in ballast water. It caused the collapse of fisheries in the Black Sea.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Transparent, walnut-shaped body</li>
-                                    <li>Lobed structure (no tentacles)</li>
-                                    <li>Rows of cilia that diffract light (rainbow effect)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Callinectes sapidus -->
-                    <div class="species-card niche-species" data-name="callinectes sapidus atlantic blue crab" data-region="mediterranean black-sea atlantic" data-images="assets/Atlantic_Blue_Crab.jpg">
-                        <div class="species-image"><img src="assets/Atlantic_Blue_Crab.jpg" alt="Atlantic Blue Crab"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Atlantic Blue Crab</div>
-                                    <div class="species-scientific">Callinectes sapidus</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Crustaceans</span>
-                            <p class="species-description">A voracious predator, originally from the Americas, now devastating bivalve populations in the Mediterranean.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Bright blue claws</li>
-                                    <li>Olive green carapace with sharp lateral spines</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Rapana venosa -->
-                    <div class="species-card niche-species" data-name="rapana venosa veined rapa whelk snail" data-region="black-sea mediterranean atlantic" data-images="assets/Veined_Rapa_Whelk.jpg, assets/Veined_Rapa_Whelk1.jpg">
-                        <div class="species-image"><img src="assets/Veined_Rapa_Whelk.jpg" alt="Veined Rapa Whelk"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Veined Rapa Whelk</div>
-                                    <div class="species-scientific">Rapana venosa</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Molluscs</span>
-                            <p class="species-description">A large predatory sea snail that feeds on native oysters and mussels. Larvae spread via ballast water.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Heavy, rounded shell (up to 18 cm)</li>
-                                    <li>Bright orange coloring on the inside of the shell opening</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Plotosus lineatus -->
-                    <div class="species-card niche-species" data-name="plotosus lineatus striped eel catfish" data-region="mediterranean" data-images="assets/Striped_Eel_Catfish.jpg">
-                        <div class="species-image"><img src="assets/Striped_Eel_Catfish.webp" alt="Striped Eel Catfish"></div>
-                        <div class="species-content">
-                            <div class="species-header">
-                                <div>
-                                    <div class="species-name">Striped Eel Catfish</div>
-                                    <div class="species-scientific">Plotosus lineatus</div>
-                                </div>
-                                <span class="priority high">INVASIVE</span>
-                            </div>
-                            <span class="species-group">Fish</span>
-                            <p class="species-description">The only marine fish on the EU list of invasive alien species. Highly venomous and dangerous to divers.</p>
-                            <div class="species-features">
-                                <h4>How to Spot It</h4>
-                                <ul>
-                                    <li>Eel-like body with four pairs of barbels around the mouth</li>
-                                    <li>Brown-black body with two white/yellow horizontal stripes</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- O HTML VAZIO ONDE O JAVASCRIPT VAI INSERIR OS CARTÕES -->
+                <div class="species-grid" id="niche-grid"></div>
             </section>
             
             <!-- Quick Reference Section -->
             <section id="reference">
-                <h2 class="section-title">Quick Reference — Europe</h2>
-                <p class="ref-note"><em>Based on the European Alien Species Information Network (EASIN).</em></p>
-                
+                <h2 class="section-title">Quick Reference — Global</h2>
+                <p class="ref-note"><em>Based on international marine pest tracking databases.</em></p>
                 <h3 class="ref-section-title noxious">🛑 Listed Invasives — Report to Authorities</h3>
                 <div class="table-container">
                     <table>
@@ -512,29 +148,24 @@
                 </div>
             </section>
 
-            <!-- Contact Section -->
             <section id="contact">
                 <h2 class="section-title">Contacts and Reporting</h2>
-                
                 <div class="contact-grid">
                     <div class="contact-card">
-                        <h3>National Competent Authorities</h3>
-                        <p>Under EU Regulation 1143/2014, each Member State has a designated authority (usually the Ministry of Environment or Coast Guard).</p>
-                        <p><strong>Action:</strong> Notify the local port authority immediately if a Union Concern species is detected.</p>
+                        <h3>Local Port Authorities</h3>
+                        <p>Under international maritime guidelines, biofouling threats should be immediately reported to the local port authority or coast guard of the country you are operating in.</p>
                     </div>
-                    
                     <div class="contact-card">
-                        <h3>IAS Europe App</h3>
-                        <p><strong>Joint Research Centre (JRC)</strong></p>
-                        <p>The official European app for citizen science and professional reporting of Invasive Alien Species.</p>
-                        <p><strong>Download:</strong> Search "Invasive Alien Species Europe" on iOS or Android.</p>
+                        <h3>GloFouling Partnerships</h3>
+                        <p><strong>International Maritime Organization (IMO)</strong></p>
+                        <p>Global project aiming to build capacity in developing countries for implementing the IMO Biofouling Guidelines.</p>
+                        <p><strong>Website:</strong> <a href="https://www.glofouling.imo.org/" target="_blank" style="color: inherit;">glofouling.imo.org</a></p>
                     </div>
-
                     <div class="contact-card">
-                        <h3>EASIN Network</h3>
-                        <p><strong>European Alien Species Information Network</strong></p>
-                        <p>Explore the official database and map of alien species across Europe.</p>
-                        <p><strong>Website:</strong> <a href="https://easin.jrc.ec.europa.eu/easin" target="_blank" style="color: inherit;">easin.jrc.ec.europa.eu</a></p>
+                        <h3>Global Invasive Species Database</h3>
+                        <p><strong>IUCN SSC Invasive Species Specialist Group</strong></p>
+                        <p>Explore the official global database for invasive alien species tracking.</p>
+                        <p><strong>Website:</strong> <a href="http://www.iucngisd.org/gisd/" target="_blank" style="color: inherit;">iucngisd.org</a></p>
                     </div>
                 </div>
             </section>
@@ -544,8 +175,8 @@
     <footer>
         <div class="container">
             <div class="footer-main">
-                <p>© 2026 BioID Europe</p>
-                <p>Information adapted from EASIN and EU Regulation 1143/2014.</p>
+                <p>© 2026 BioID Global</p>
+                <p>Information adapted from Global Databases and IMO Biofouling Guidelines.</p>
             </div>
         </div>
     </footer>
