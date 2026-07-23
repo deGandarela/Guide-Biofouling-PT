@@ -839,3 +839,18 @@ footer p { opacity: 0.8; font-size: 0.9rem; }
     font-weight: 700;
     color: #86efac; /* Verde pastel muito claro e legível */
 }
+/* Espaçamento e tamanho de letra ajustados para a barra de navegação */
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Adiciona um pequeno espaço fixo entre cada item */
+    flex-wrap: nowrap; /* Evita que os itens saltem de linha se houver espaço */
+}
+
+/* Reduz a letra dos links (Global e Report It) e dos menus dropdown */
+header nav ul li a, 
+header nav ul li .nav-select {
+    font-size: 0.85rem; /* Letra mais pequena (podes testar 0.8rem se precisares de mais espaço) */
+    padding: 6px 10px; /* Reduz ligeiramente o enchimento do botão para acompanhar a letra pequena */
+    white-space: nowrap; /* Impede que o texto "All Waters" ou "Report It" se parta ao meio */
+}
