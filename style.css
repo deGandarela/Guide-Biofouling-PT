@@ -854,3 +854,17 @@ header nav ul li .nav-select {
     padding: 6px 10px; /* Reduz ligeiramente o enchimento do botão para acompanhar a letra pequena */
     white-space: nowrap; /* Impede que o texto "All Waters" ou "Report It" se parta ao meio */
 }
+/* Expande a largura do cabeçalho e empurra o logo para a esquerda */
+header .container {
+    display: flex;
+    justify-content: space-between; /* Garante que o logo fica na ponta esquerda e a navegação na ponta direita */
+    align-items: center;
+    max-width: 1600px; /* Aumenta a largura máxima permitida no cabeçalho */
+    width: 96%; /* Usa quase toda a largura do ecrã */
+    margin: 0 auto;
+}
+
+/* Garante que o menu de navegação não se cola ao logo se o ecrã for pequeno */
+header nav {
+    margin-left: auto;
+}
